@@ -42,5 +42,19 @@ width:100%;}
 border-radius:20px;
 border:none; 
  margin:50px;}
+ /* first- section  */
 
 
+.team-container{ margin-top:200px;
+    gap:50px;
+    margin-left:200px;
+    display: flex;}
+ .team-imgs{display: flex;
+    display: grid;
+         grid-template-columns:repeat(2,1fr);
+        justify-items: stretch;
+    }
+.team-discription{ margin-top:200px;
+    }
+    .team-title{font-size:48px;}
+    /* first-section end */
