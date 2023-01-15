@@ -1,0 +1,46 @@
+*{font-family: 'Work Sans', sans-serif;}
+
+/* common style  */
+main{background-color:rgba(255, 144, 14, 0.1)
+}
+/* nav-style */
+.nav-container{ 
+    padding-top:20px;
+  display:flex;
+    justify-content:space-evenly ; 
+    gap:700px
+}
+.nav-title{font-size:34px;
+        color: #131313;
+    }
+.nav-info{display: flex;
+    font-size:18px;
+    gap: 10px;
+}
+
+
+/* nav media query */
+
+@media screen and (max-width:576px) {
+    .nav-container{display: flex; 
+        flex-direction:row;
+    }
+    .nav-info{display: flex;
+        flex-direction: row;}
+    }
+
+/* header-container */
+.banner-img{height:700px;
+width:100%;}
+
+.header-container{text-align: center;}
+.header-title{
+    font-size:64px}
+.btn-exp{height:64px;
+ width:164px ;
+ background-color:#FF900E ;
+border-radius:20px;
+border:none; 
+ margin:50px;}
+
+
